@@ -1,8 +1,22 @@
 {
-  "name": "@your-scope/gutter-rust",
+  "name": "@gutter-ade/gutter-rust",
   "version": "0.1.0",
   "description": "Hover docs and go to definition for Rust in Gutter, through rust-analyzer.",
   "keywords": ["gutter-extension", "rust"],
   "license": "MIT",
-  "files": ["gutter-extension.json", "README.md"]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gutter-ADE/gutter-rust.git"
+  },
+  "homepage": "https://github.com/Gutter-ADE/gutter-rust#readme",
+  "bugs": {
+    "url": "https://github.com/Gutter-ADE/gutter-rust/issues"
+  },
+  "files": [
+    "gutter-extension.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

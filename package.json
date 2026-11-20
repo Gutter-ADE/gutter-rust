@@ -1,0 +1,8 @@
+{
+  "name": "@your-scope/gutter-rust",
+  "version": "0.1.0",
+  "description": "Hover docs and go to definition for Rust in Gutter, through rust-analyzer.",
+  "keywords": ["gutter-extension", "rust"],
+  "license": "MIT",
+  "files": ["gutter-extension.json", "README.md"]
+}
